@@ -51,6 +51,11 @@ a{
     padding: 20px 40px 0px 40px;
 
 }
+.contenedor:nth-of-type(4){
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/legostores-5e8b8.appspot.com/o/carta-reyes%2Fpaper-03.svg?alt=media&token=8c88bbd3-57c5-42e9-98da-9a52795b4f5e");
+    margin: 40px auto 40px;
+    padding: 20px 40px 0px 40px;
+}
 
 .deseos--item{
     margin-bottom: 20px;
@@ -170,9 +175,73 @@ main .contenedor-img {
      color: #3F3F3F;
 }
 
+.button-write{
+    margin-bottom: 20px;
+}
+
 .button-container{
     text-align: center;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    place-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.button-download--item{
+    text-decoration: none;
+    background-color: #da2f11;
+    color: white;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+}
+
+.button-write--item{
+    text-decoration: none;
+    background-color: #da2f11;
+    color: white;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+}
+
+.icon-p{
+    margin-left: 10px;
 }
 
 .btn-link {
